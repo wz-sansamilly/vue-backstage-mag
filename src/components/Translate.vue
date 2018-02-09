@@ -8,13 +8,13 @@
         <option value="ja">	Japanese</option>
         <option value="fr">	French</option>
       </select>
-      <a v-on:click="doTranslate" class="btn ml-20">翻译</a>
+      <a v-on:click="doTranslate" class="btn ml-20">Translate</a>
     </div>
     <div class="pt-20 mt-10">
       <textarea class="textarea" name="origin" placeholder="Please input" v-model="tranlateText"></textarea>
       <textarea class="textarea ml-80 bgGray" name="result" disabled v-model="translateResult"></textarea>
     </div>
-    <div class="mt-10 tip">剩余{{remnant}}字</div>
+    <div class="mt-10 tip">{{remnant}} charactors left</div>
   </div>
 </template>
 <script>

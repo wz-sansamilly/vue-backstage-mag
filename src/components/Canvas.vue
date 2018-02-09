@@ -12,7 +12,7 @@
       name:'chart',
       mounted () {
         this.$nextTick(() => {
-          this.drawPie(this.$refs.checkPie, 300, 300, '#96D3D3', '#F1F2F7', '浏览量', 20);
+          this.drawPie(this.$refs.checkPie, 300, 300, '#96D3D3', '#F1F2F7', 'Visit', 20);
         })
       },
       methods: {

@@ -2,39 +2,39 @@
   <div id="profile" class="main">
     <div class="avatar clearfix mtbl-20">
         <img src="@/assets/img/avatar.jpg" alt="">
-        <a title="更改头像" class="btn round ml-40">更改头像</a>
+        <a title="Change Photo" class="btn round ml-40">Change Photo</a>
     </div>
     <div class="portray ">
         <div class="clearfix field mtbl-20">
-            <span>昵称</span>
-            <input type="text" class="input">
+            <span>Name</span>
+            <input type="text" class="input" value="Amily">
         </div>
         <div class="clearfix field mtbl-20">
-            <span>电子邮件</span>
-            <input type="text" class="input">
+            <span>Email</span>
+            <input type="text" class="input" value="sansamilly@163.com">
         </div>
         <div class="clearfix field mtbl-20">
-            <span>微信二维码</span>
-            <img src="@/assets/img/wx.jpg" alt="">
+            <span>Wechat QR Code</span>
+            <img src="@/assets/img/wx.jpg" alt="" width="100" height="100">
         </div>
         <div class="clearfix field mtbl-20">
-            <span>简介</span>
+            <span>Description</span>
             <textarea name="" class="textarea"></textarea>
         </div>
         <div class="clearfix field mtbl-20">
-            <span>社交账号</span>
+            <span>Social Account</span>
             <div class="link">
                 <p>
-                    <img src="@/assets/img/wx.png" alt="微信">
-                    <a title="微信">微信：fishes119</a>
+                    <img src="@/assets/img/wx.png" alt="Wechat">
+                    <a title="Wechat">Wechat：fishes119</a>
                 </p>
                 <p>
                     <img src="@/assets/img/qq.png" alt="QQ">
                     <a title="QQ">QQ：814053905</a>
                 </p>
                 <p>
-                    <img src="@/assets/img/blog.png" alt="博客园">
-                    <a href="//www.cnblogs.com/w-sansamilly/" title="博客园">博客园：sansamilly</a>
+                    <img src="@/assets/img/blog.png" alt="Blog">
+                    <a href="//www.cnblogs.com/w-sansamilly/" title="Blog">Blog：sansamilly</a>
                 </p>
                 <p>
                     <img src="@/assets/img/github.png" alt="github">
