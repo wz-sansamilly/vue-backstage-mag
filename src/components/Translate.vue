@@ -14,7 +14,7 @@
       <textarea class="textarea" name="origin" placeholder="Please input" v-model="tranlateText"></textarea>
       <textarea class="textarea ml-80 bgGray" name="result" disabled v-model="translateResult"></textarea>
     </div>
-    <div class="mt-10 tip">{{remnant}} charactors left</div>
+    <div class="mt-10 tip">{{remnant}} characters left</div>
   </div>
 </template>
 <script>
