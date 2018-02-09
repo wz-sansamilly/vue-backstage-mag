@@ -1,6 +1,6 @@
-# vue-backstage-mag
+# vue 后台管理系统
 
-> A Vue.js project
+[查看demo](https://wz-sansamilly.github.io/vue-backstage-mag/dist/index.html#/profile)
 
 ## Build Setup
 
