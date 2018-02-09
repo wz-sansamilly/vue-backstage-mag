@@ -11,11 +11,6 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'Profile',
-      component: Profile
-    },
-    {
       path: '/profile',
       name: 'Profile',
       component: Profile
