@@ -1,0 +1,96 @@
+$btnGreen: #00b5ad;
+$btnGreenHover: #009C95;
+$border:#d8d5d5;
+$text: #4F4F50;
+$bg: #f9f9f9;
+body{
+    background: #F1F1F1; 
+}
+.ml-20{
+    margin-left:20px;
+}
+.ml-40{
+    margin-left: 40px;
+}
+.mtbl-20{
+    margin: 20px 0 20px 20px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.ml-80{
+    margin-left: 80px;
+}
+.pt-20{
+    padding-top: 20px; 
+}
+.mtb-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.lib{
+    display: inline-block;
+}
+.none{
+    display: none;
+}
+.clearfix::after{
+    display: table;
+    clear: both;
+    content: '';
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px; 
+    background-color: $btnGreen;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 1px;
+    &.round{
+        border-radius: 20px; 
+    }
+    &:hover{
+        background-color: $btnGreenHover; 
+    }
+}
+.input{
+    border: 1px solid $border;
+    padding: 10px 13px;
+    border-radius: 6px;
+    outline: none;
+    color: $text;
+    width: 250px;
+    background-color: $bg; 
+}
+.textarea{
+    border: 1px solid $border;
+    color: $text;
+    vertical-align: top;
+    width: 500px;
+    height: 200px;
+    outline: none;
+    padding: 10px 13px;
+    font: 400 15px Arial;
+    background-color: $bg; 
+}
+.select{
+    border: 1px solid #ddd;
+    padding: 8px;
+    outline: none;
+}
+.bgGray{
+    background-color: rgb(230, 227, 227);
+}
