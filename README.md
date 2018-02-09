@@ -1,7 +1,11 @@
-# vue 后台管理系统
+## vue 后台管理系统
 
 [查看demo](https://wz-sansamilly.github.io/vue-backstage-mag/dist/index.html#/profile)
-
+## include
+1. Echarts 绘图
+2. 表格
+3. canvas绘图
+4. 翻译demo
 ## Build Setup
 
 ``` bash
